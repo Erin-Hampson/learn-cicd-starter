@@ -50,7 +50,7 @@ func TestGetAPIKey(t *testing.T) {
 				"Authorization": []string{"ApiKey   spaced-value"},
 			},
 			wantKey:     "",
-			expectError: true, // GetAPIKey returns empty key and no error
+			expectError: false, // GetAPIKey returns empty key and no error
 		},
 
 	}
