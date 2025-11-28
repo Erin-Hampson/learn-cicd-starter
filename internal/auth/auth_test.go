@@ -52,7 +52,6 @@ func TestGetAPIKey(t *testing.T) {
 			wantKey:     "",
 			expectError: false, // GetAPIKey returns empty key and no error
 		},
-
 	}
 
 	for _, tt := range tests {
